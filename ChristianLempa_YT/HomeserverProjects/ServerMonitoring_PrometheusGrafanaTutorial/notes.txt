@@ -1,0 +1,50 @@
+
+Server Monitoring // Prometheus and Grafana Tutorial
+
+URL: https://youtu.be/9TJx7QTrTyo?si=U-HLth-LfDiQWIag
+
+
+
+Server Monitoring with Prometheus and Grafana setup in Docker and Portainer. I explain the difference between metrics and logging and how Prometheus can monitor all your server metrics and use Grafana to visualize them.
+
+Teleport-*: http://goteleport.com/thedigitallife
+
+Related Videos/Links
+   • My new Proxmox Monitoring Tools: Infl...
+     https://www.youtube.com/watch?v=f2eyVfCTLi0
+
+________________
+
+💜 Support me and become a Fan!
+   → https://christianlempa.de/patreon
+
+💬 Join our Community!
+   → https://christianlempa.de/discord
+
+________________
+
+Read my Tech Documentation
+https://christianlempa.de/docs
+
+My Gear and Equipment-*
+https://christianlempa.de/kit
+
+________________
+
+Timestamps:
+
+00:00 - Introduction
+01:08 - Why centralize monitoring
+02:01 - Difference between logs and metrics
+03:19 - What is Prometheus?
+03:46 - Monitoring Architecture
+05:12 - Deploy Prometheus and Grafana
+10:03 - Configure Prometheus
+13:21 - Third-Party Exporters
+19:04 - Visualize data with Grafana
+21:44 - Import Grafana Dashboards
+
+________________
+All links with "*" are and/or include affiliate links.
+
+#Prometheus #Grafana #HomeLab

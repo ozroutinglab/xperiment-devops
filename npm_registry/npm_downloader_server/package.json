@@ -1,0 +1,11 @@
+{
+    "name": "npm-cache-project",
+    "version": "1.0.0",
+    "description": "A project to cache npm packages",
+    "dependencies": {
+      "lodash": "^4.17.21",
+      "express": "^4.18.2",
+      "react": "^18.2.0",
+      "typescript": "^5.0.0"
+    }
+  }

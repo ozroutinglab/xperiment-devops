@@ -1,0 +1,12 @@
+# version: '3.9'
+services:
+  npm-cache-runner:
+    image: npm-cache-runner
+    container_name: npm-cache-runner
+    volumes:
+      - /home/ozroutinglab/.config/npm-cache-runner:/app
+    networks: 
+      - host
+
+networks:
+    host: {}

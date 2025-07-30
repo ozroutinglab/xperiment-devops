@@ -1,0 +1,15 @@
+# version: '3.8'
+
+services:
+  verdaccio:
+    image: verdaccio/verdaccio:latest
+    container_name: verdaccio
+    ports:
+      - "4873:4873"
+    volumes:
+      - /home/ozroutinglab/verdaccio/storage:/verdaccio/storage
+      - /home/ozroutinglab/verdaccio/config:/verdaccio/conf
+      - /home/ozroutinglab/verdaccio/plugins:/verdaccio/plugins
+    environment:
+      - VERDACCIO_PUBLIC_URL=http://srv587683.hstgr.cloud:4873
+

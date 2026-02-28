@@ -1,0 +1,18 @@
+#version: "3.7"
+services:
+  tailscale-dev-devops-01:
+    image: tailscale/tailscale:v1.58.2
+    hostname: tailscale-dev-devops-01
+    environment:
+      - TS_AUTHKEY=
+      - TS_EXTRA_ARGS=--advertise-tags=tag:container
+      - TS_STATE_DIR=/var/lib/tailscale
+      - TS_USERSPACE=false
+    volumes:
+      - ${PWD}/../app/tailscale-dev-devops-01/state:/var/lib/tailscale
+    devices:
+      - /dev/net/tun:/dev/net/tun
+    cap_add:
+      - net_admin
+    restart: unless-stopped
+    network_mode: bridge

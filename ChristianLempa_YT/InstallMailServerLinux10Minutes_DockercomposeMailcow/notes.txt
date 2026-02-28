@@ -1,0 +1,4 @@
+
+Install a mail server on Linux in 10 minutes - docker, docker-compose, mailcow
+
+URL: https://youtu.be/4rzc0hWRSPg?list=TLPQMTIwNTIwMjUnWfEBTUN0LQ
